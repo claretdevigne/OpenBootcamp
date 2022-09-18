@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>James Cameron</title>
+</head>
+<body>
+     
+    <h1>JAMES CAMERON</h1>
+    <br>
+    <table class="tabla" cellspacing="5">
+        <tr>
+            <th>Nombre</th>
+            <th>Año</th>
+            <th class="sinopsis centro">Sinopsis</th>
+        </tr>
+        {% for pelis in peliculas %}
+
+        <tr>
+            <td  id="gray">{{ pelis.nombre }}</td>
+            <td>{{ pelis.año }}</td>
+            <td class="sinopsis">{{ pelis.sinopsis }}</td>
+        </tr>
+
+        {% endfor %}
+    </table>
+    <br>
+    <form action="directores">
+        <button type="submit">Regresar</button>
+    </form>
+ 
+</body>
+</html>

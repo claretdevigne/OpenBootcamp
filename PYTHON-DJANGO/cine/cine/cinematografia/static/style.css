@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    background-color: #f3c406;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    width: 20px;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(64, 236, 16);
+
+}
+
+td {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#gray {
+    background-color: rgb(235, 231, 231);
+}
+
+tr {
+    margin: 0px;
+    padding: 0px;
+}
+.sinopsis {
+    width: 500px;
+    text-align: left;
+}
+
+.sinopsis.centro {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    border: 0;
+    margin: 0 auto 50px auto;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#tabladirectores {
+    margin-top: 30px;
+}
+
+#nombredirector {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
