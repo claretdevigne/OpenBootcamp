@@ -1,0 +1,32 @@
+.principal {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    background-color: deeppink;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button::after {
+    content: "Pasa por encima";
+}
+
+button:hover {
+    background-color: rgb(89, 136, 19);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover::after {
+    content: "¡Hecho!"
+}
+
