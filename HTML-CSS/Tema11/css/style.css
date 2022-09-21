@@ -1,0 +1,23 @@
+.col-md, .col-lg, .col-xl, .col-sm {
+    margin: 5px;
+}
+
+.col-md, .col-lg, .col-xl {
+    color: white;
+}
+
+.col-sm {
+    background-color: aqua;
+}
+
+.col-md {
+    background-color: blue;
+}
+
+.col-lg {
+    background-color: brown;
+}
+
+.col-xl {
+    background-color: blueviolet;
+}
