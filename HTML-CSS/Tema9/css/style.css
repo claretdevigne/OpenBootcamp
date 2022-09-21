@@ -1,0 +1,27 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vw;
+}
+
+.btn-modern {
+    padding: 1rem;
+    width: 200px;
+    border-radius: 30px;
+    border: 0;
+    background-color: deeppink;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-modern:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0 0 5px black;
+    background-color: yellow;
+    color: red;
+    transition: 0.4s;
+    cursor: pointer;
+}
