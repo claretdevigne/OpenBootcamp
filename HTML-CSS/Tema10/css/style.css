@@ -1,0 +1,40 @@
+.contenedor {
+    background-color: antiquewhite;
+    display: flex;
+    height: 50vw;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin-top: 10px;
+}
+
+.derecha {
+    background-color: aqua;
+    flex-grow: 4;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px){
+    .contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .izquierda {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+}
